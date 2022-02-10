@@ -1,0 +1,147 @@
+.header {
+        background-color: #f0f2f5;
+        text-decoration: none;
+}
+
+.header_wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 130px;
+}
+
+.main {
+        display: flex;
+}
+
+.leftside {
+        padding-top: 250px;
+}
+
+.rightside {
+        padding-top: 250px;
+}
+
+.fb_image {
+        width: 300px;
+}
+
+.fb_desc {
+        width: 500px;
+        font-size: 30px;
+}
+
+.input_form {
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        height: 270px;
+        border-radius: 5px;
+        background-color: white;
+        padding-top: 20px;
+        padding-right: 5px;
+        padding-bottom: 25px;
+        padding-left: 5px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+input[type='text'], input[type='password'] {
+        width: 280px;
+        background-color: white;
+        margin: auto;
+        border: 2px solid rgb(200, 200, 200);
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 5px;
+        color: black;
+        font-size: 16px; 
+        text-align: center;
+        font-family: serif;
+}
+
+button {
+        border: none;
+        background-color: #1877f2;
+        color: white;
+        margin: auto;
+        width: 280px;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+        padding-top: 10px;
+        padding-bottom: 10px;
+}
+
+.forget_password {
+        margin: auto;
+        color: #1877f2;
+        font-weight: 400;        
+}
+
+.line {
+        border-top: 1px solid black;
+        opacity: 0.3;
+}
+
+.create_new_acc_btn {
+        width: 230px;
+        background-color: #42b72a;
+}
+
+.create_page {
+        width: 320px;
+        margin-top: 15px;
+        text-align: center;
+}
+
+.create_page p {
+        color: black;
+        font-size: 12px;
+        font-weight: 600;
+}
+
+.create_page a {
+        color: black;
+        font-size: 14px;
+        font-weight: bold;
+}
+
+.footer_wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: auto;
+        padding-top: 27px;
+}
+
+.footer_wrapper a {
+        color: black;
+        opacity: 0.5;
+        text-decoration: none;
+        margin-right: 7px;
+        font-size: 14px;
+}
+
+.meta {
+        color: black;
+        opacity: 0.5;
+        font-size: 14px;
+        margin-top: 20px;
+}
+
+.footer_wrapper a:hover {
+        text-decoration: underline;
+}
+
+.footer {
+        background-color: white;
+}
+
+.langs {
+}
+
+.footer_line {
+        border-top: 1px solid black;
+        opacity: 0.3;
+}
