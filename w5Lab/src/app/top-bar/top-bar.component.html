@@ -6,10 +6,18 @@
       </a>
     </div>
 
+    <div class="goBack">
+      <a (click)="goBack()"> ← </a>
+    </div>
+
     <div class="categories">
       <a [routerLink]="['/categories']">
         Categories
       </a>
+    </div>
+
+    <div class="goForward">
+      <a (click)="goForward()"> → </a>
     </div>
 
     <div class="checkout">

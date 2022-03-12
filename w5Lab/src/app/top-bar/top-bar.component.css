@@ -9,3 +9,10 @@
   padding: 20px;
 }
 
+.goBack:hover {
+  cursor: pointer;
+}
+
+.goForward {
+  cursor: pointer;
+}
