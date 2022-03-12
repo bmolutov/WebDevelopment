@@ -1,0 +1,16 @@
+.main {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 25px;
+  background-color: white;
+  height: 90vh;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.leftSide {
+  width: 45%;
+}

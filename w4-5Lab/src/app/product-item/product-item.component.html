@@ -1,0 +1,10 @@
+<div *ngIf="product">
+  <h3>{{ product.name }}</h3>
+  <h4>Price: {{ product.price | currency }}</h4>
+  <p>Description: {{ product.description }}</p>
+  <img [src]="product.image">
+  <h4>Rating: {{ product.rating }} out of 5</h4>
+
+  <button (click)="onLike(product)">Like!</button>
+  <h4 *ngIf="product.likes > 0">You like it! ({{ product.likes }})</h4>
+</div>

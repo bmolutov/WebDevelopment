@@ -1,0 +1,23 @@
+<div class="main">
+  <div *ngFor="let category of categories">
+    <hr>
+    <div class="container">
+      <div class="leftSide">
+        <div class="categoryNames">
+          <a [routerLink]="['/categories', category.name]" >
+            {{ category.name }}
+          </a>
+        </div>
+        <div class="categoryDescription">
+          {{ category.description }}
+        </div>
+      </div>
+      <div class="rightSide">
+        <div class="categoryImages">
+          <img src="{{ category.image }}" alt="{{ category.name }}">
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+</div>

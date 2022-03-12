@@ -1,0 +1,38 @@
+<div class="main">
+  <div *ngFor="let product of products">
+    <div *ngIf="currentLocation === product.categoryName">
+
+      <hr>
+      <div class="container">
+        <div class="title">
+          <h3>
+            <a
+              [title]="product.name + ' details'"
+              [routerLink]="['/categories', currentLocation, product.id]">
+              {{ product.name }}
+            </a>
+          </h3>
+        </div>
+
+        <div class="desc">
+          <p *ngIf="product.description">
+            Description: {{ product.description }}
+          </p>
+        </div>
+
+        <div class="btn">
+          <button type="button" (click)="share(product.link)">
+            Share
+          </button>
+
+          <app-product-alerts
+            [product]="product"
+            (notify)="onNotify()">
+          </app-product-alerts>
+        </div>
+        <hr>
+
+      </div>
+    </div>
+  </div>
+</div>

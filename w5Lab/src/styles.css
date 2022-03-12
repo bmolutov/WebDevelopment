@@ -1,0 +1,31 @@
+* {
+  font-family: sans-serif;
+  color: black;
+}
+
+body {
+  background: url("https://media1.thehungryjpeg.com/thumbs2/ori_3754482_rkf6je195atsxedadfnb25ydjojusla4hhqfnvl3_circuit-board-seamless-high-tech-technology-electronic-system-pattern.jpg  ");
+}
+
+a {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+a:hover {
+  border-bottom: 4px solid black;
+}
+
+button {
+  margin-right: 20px;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+}
