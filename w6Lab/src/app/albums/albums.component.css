@@ -1,0 +1,51 @@
+a {
+  /*text-decoration: none;*/
+  color: black;
+  font-size: 20px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 25px;
+  height: auto;
+}
+
+.input {
+  display: flex;
+  justify-content: space-between;
+
+  width: 80%;
+  margin: 0 auto;
+}
+
+.input input {
+  width: 620px;
+  height: 20px;
+  font-size: 20px;
+}
+
+.input button {
+  height: 27px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  width: 80%;
+  margin: 0 auto;
+}
+
+.album {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.line {
+  width: 100%;
+  border-bottom: 1px solid black;
+}

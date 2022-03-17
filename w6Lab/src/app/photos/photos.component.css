@@ -1,0 +1,25 @@
+.main {
+  margin-top: 30px;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+}
+
+.photos {
+  width: 70%;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  padding-right: 10px;
+}
+
+.btn button {
+  margin-bottom: 10px;
+  width: 100px;
+}

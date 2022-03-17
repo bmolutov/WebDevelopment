@@ -1,0 +1,20 @@
+<div class="main">
+
+  <div *ngIf="loaded && album" class="container">
+    <p>user ID: {{ album.userId }} and ID: {{ album.id }}</p>
+    <hr>
+    <input type="text" [(ngModel)]="album.title">
+    <p>{{ album.title }}</p>
+
+    <hr>
+    <a [routerLink]="['/albums', album.id, 'photos']">See photos</a> <br><br>
+
+    <button (click)="goBack()">Return back</button>
+    <button (click)="updateAlbum()">Save</button>
+  </div>
+
+  <div class="footer">
+    <p *ngIf="!loaded">Loading...</p>
+  </div>
+
+</div>

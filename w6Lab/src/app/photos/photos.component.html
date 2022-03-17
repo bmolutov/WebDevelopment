@@ -1,0 +1,19 @@
+<div class="main">
+  <div *ngIf="loaded && photos" class="container">
+
+    <div class="photos">
+      <div *ngFor="let photo of photos">
+        <div *ngIf="photo.id === currentPhotoID">
+          <img src="{{ photo.url }}" alt="{{ photo.id }}">
+        </div>
+      </div>
+    </div>
+
+    <div class="btn">
+      <button (click)="decID()">prev</button>
+      <button (click)="incID()">next</button>
+      <button (click)="goBack()">Return back</button>
+    </div>
+
+  </div>
+</div>
