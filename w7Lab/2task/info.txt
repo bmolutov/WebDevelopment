@@ -1,0 +1,11 @@
+pip install virtualenv
+
+virtualenv myenv
+myenv\Scripts\activate
+deactivate
+
+pip install django
+django-admin startproject demo
+py manage.py migrate
+
+py manage.py createsuperuser
