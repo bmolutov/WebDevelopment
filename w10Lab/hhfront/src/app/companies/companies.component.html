@@ -1,0 +1,22 @@
+<div class="container">
+    <h1>Companies</h1>
+
+    <ul>
+        <li *ngFor="let c of companies">
+            <h3>name: {{c.name}}</h3>
+            <button (click)="show(c.id)" class="btn btn-success">Show</button> 
+            <div *ngIf="target != -1 && target == c.id">
+                <h4>Vacancies:</h4>
+                <ul>
+                    <li *ngFor="let v of vacancies" style="border: 1px solid black; margin-bottom: 5px; padding: 3px">
+                        <p>name: {{v.name}}</p>
+                        <p>Description: {{v.description}}</p>
+                        <p>Salary: {{v.salary}}</p>
+                    </li>
+                </ul>
+                <button (click)="hide()" class="btn btn-warning">Hide</button>
+            </div>
+        </li>
+    </ul>
+
+</div>
